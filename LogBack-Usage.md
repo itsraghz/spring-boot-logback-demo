@@ -16,7 +16,7 @@ If needed, we can customize the logging elements, appenders, patterns via the fo
 ## Reference Links
 
 * [Spring Boot - Official Doc - Logging](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging)
-* [Spring Boot - Official Doc - Logging Configuration]([https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-custom-log-configuration)
+* [Spring Boot - Official Doc - Logging Configuration](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-custom-log-configuration)
 * [Spring Boot - Official Doc - Configure Logback for Logging](https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto-logging)
 * [Simple, Best and EXCELLENT Tutorial on SpringBoot LogBack](https://lankydan.dev/2019/01/09/configuring-logback-with-spring-boot)
 * https://mkyong.com/logging/logback-set-log-file-name-programmatically/
@@ -260,7 +260,7 @@ private static void setProperties() {
 #### Console Output
 
 ```java
-
+z`
 ```
 
 #### Explanation
