@@ -1,0 +1,37 @@
+22-03-2021 00:30:08.185 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStarting - Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 42596 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+22-03-2021 00:30:08.185 [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication.logStarting - Running with Spring Boot v2.4.4, Spring v5.3.5
+22-03-2021 00:30:08.185 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+22-03-2021 00:30:08.555 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStarted - Started SpringBootLogbackDemoApplication in 0.69 seconds (JVM running for 1.177)
+22-03-2021 00:30:08.565 [main] TRACE c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed more information - Value
+22-03-2021 00:30:08.565 [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed to debug - Value
+22-03-2021 00:30:08.565 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff took input - Value
+22-03-2021 00:30:08.565 [main] WARN  c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed to warn - Value
+22-03-2021 00:30:08.565 [main] ERROR c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff encountered an error with value - Value
+22-03-2021 00:31:51.008 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStarting - Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 45036 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+22-03-2021 00:31:51.008 [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication.logStarting - Running with Spring Boot v2.4.4, Spring v5.3.5
+22-03-2021 00:31:51.008 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+22-03-2021 00:31:51.426 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStarted - Started SpringBootLogbackDemoApplication in 0.731 seconds (JVM running for 1.219)
+22-03-2021 00:31:51.426 [main] TRACE c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed more information - Value
+22-03-2021 00:31:51.426 [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed to debug - Value
+22-03-2021 00:31:51.426 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff took input - Value
+22-03-2021 00:31:51.426 [main] WARN  c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed to warn - Value
+22-03-2021 00:31:51.426 [main] ERROR c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff encountered an error with value - Value
+22-03-2021 00:34:58.233 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStarting - Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 44404 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+22-03-2021 00:34:58.235 [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication.logStarting - Running with Spring Boot v2.4.4, Spring v5.3.5
+22-03-2021 00:34:58.235 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStarted - Started SpringBootLogbackDemoApplication in 0.802 seconds (JVM running for 1.328)
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - LOG_PATH==data/logs/JavaConfig/
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - ${LOG_PATH}=data/logs/Java-Config/
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - ${LOG_FILE}=dynamic-file-name-placeholder.log
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - FILE_LOG_CHARSET=UTF-8
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - logFileNameWithPath=data/logs/WIP/2021/03/21/dynamic-file-name.log
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - FILE_LOG_PATTERN=%d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - logFileName=dynamic-file-name.log
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - LOG_FILE=data/logs/JavaConfig//app-log_21Mar2021.log
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - CONSOLE_LOG_CHARSET=UTF-8
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - CONSOLE_LOG_PATTERN=%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger.%M - %msg%n
+22-03-2021 00:34:58.715 [main] TRACE c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed more information - Value
+22-03-2021 00:34:58.715 [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed to debug - Value
+22-03-2021 00:34:58.715 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff took input - Value
+22-03-2021 00:34:58.715 [main] WARN  c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed to warn - Value
+22-03-2021 00:34:58.715 [main] ERROR c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff encountered an error with value - Value

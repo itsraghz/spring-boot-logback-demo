@@ -1,0 +1,6 @@
+194  [main] INFO  c.example.demo.logback.LogBackTest - setup() - System Property - logFileNameWithPath - has been set
+194  [main] INFO  c.example.demo.logback.LogBackTest - Example log from LogBackTest
+200  [main] INFO  c.example.demo.logback.LogBackTest - setup() - System Property - logFileNameWithPath - has been set
+200  [main] INFO  c.example.demo.logback.LogBackTest - Example log from LogBackTest
+217  2021-03-19 | 23:43:31.449 | [main] INFO  c.example.demo.logback.LogBackTest - setup() - System Property - logFileNameWithPath - has been set
+217  2021-03-19 | 23:43:31.449 | [main] INFO  c.example.demo.logback.LogBackTest - Example log from LogBackTest

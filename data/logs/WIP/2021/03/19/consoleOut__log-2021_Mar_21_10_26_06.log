@@ -1,0 +1,2 @@
+285  2021-03-21 | 10:26:06.986 | [main] INFO  c.example.demo.logback.LogBackTest - setup() - System Property - logFileNameWithPath - has been set
+288  2021-03-21 | 10:26:06.989 | [main] INFO  c.example.demo.logback.LogBackTest - Example log from LogBackTest
