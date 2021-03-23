@@ -14,11 +14,11 @@ public class SpringBootLogbackDemoApplication {
     private final Logger LOGGER = LoggerFactory.getLogger(SpringBootLogbackDemoApplication.class);
 
     public static void main(String[] args) {
-        setProperties();
+        //setProperties();
 
         SpringBootLogbackDemoApplication obj = new SpringBootLogbackDemoApplication();
         SpringApplication.run(SpringBootLogbackDemoApplication.class, args);
-        //obj.printSystemProperties();
+        obj.printSystemProperties();
         obj.doStuff("Value");
     }
 
@@ -30,10 +30,10 @@ public class SpringBootLogbackDemoApplication {
         System.setProperty("LOG_PATH", "data/logs/JavaConfig/");
         //System.setProperty("LOG_FILE", "dynamic-file-name.log");
         //System.setProperty("LOG_FILE", "app-log_21Mar2021.log");
-        System.setProperty("LOG_FILE", "app-log_22Mar2021-blog.log");
+        System.setProperty("LOG_FILE", "app-log-for-blog-23Mar2021.log");
 
-        System.setProperty("${LOG_PATH}", "data/logs/Java-Config/");
-        System.setProperty("${LOG_FILE}", "dynamic-file-name-placeholder.log");
+        /*System.setProperty("${LOG_PATH}", "data/logs/Java-Config/");
+        System.setProperty("${LOG_FILE}", "dynamic-file-name-placeholder.log");*/
     }
 
     public void doStuff(final String value) {

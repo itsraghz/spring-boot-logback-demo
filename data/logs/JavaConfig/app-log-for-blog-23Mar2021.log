@@ -1,0 +1,19 @@
+23-03-2021 08:34:32.749 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStarting - Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 45588 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+23-03-2021 08:34:32.751 [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication.logStarting - Running with Spring Boot v2.4.4, Spring v5.3.5
+23-03-2021 08:34:32.752 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+23-03-2021 08:34:33.228 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStarted - Started SpringBootLogbackDemoApplication in 0.86 seconds (JVM running for 1.448)
+23-03-2021 08:34:33.230 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - ==========================================
+23-03-2021 08:34:33.230 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties -  System Properties configured for log*    
+23-03-2021 08:34:33.230 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - ==========================================
+23-03-2021 08:34:33.232 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - System Property - LOG_PATH=data/logs/JavaConfig/
+23-03-2021 08:34:33.232 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - System Property - FILE_LOG_CHARSET=UTF-8
+23-03-2021 08:34:33.232 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - System Property - FILE_LOG_PATTERN=%d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n
+23-03-2021 08:34:33.232 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - System Property - LOG_FILE=data/logs/JavaConfig//app-log-for-blog-23Mar2021.log
+23-03-2021 08:34:33.233 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - System Property - CONSOLE_LOG_CHARSET=UTF-8
+23-03-2021 08:34:33.233 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - System Property - CONSOLE_LOG_PATTERN=%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger.%M - %msg%n
+23-03-2021 08:34:33.233 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.printSystemProperties - =========================================
+23-03-2021 08:34:33.233 [main] TRACE c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed more information - Value
+23-03-2021 08:34:33.235 [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed to debug - Value
+23-03-2021 08:34:33.236 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff took input - Value
+23-03-2021 08:34:33.236 [main] WARN  c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed to warn - Value
+23-03-2021 08:34:33.236 [main] ERROR c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff encountered an error with value - Value

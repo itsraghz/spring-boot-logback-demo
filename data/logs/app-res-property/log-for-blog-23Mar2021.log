@@ -1,0 +1,18 @@
+2021-03-23 09:17:43.609  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 47292 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+2021-03-23 09:17:43.613 DEBUG 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-23 09:17:43.613  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : No active profile set, falling back to default profiles: default
+2021-03-23 09:17:44.235  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : Started SpringBootLogbackDemoApplication in 1.31 seconds (JVM running for 2.148)
+2021-03-23 09:17:44.239  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : ==========================================
+2021-03-23 09:17:44.240  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication :  System Properties configured for log*    
+2021-03-23 09:17:44.240  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : ==========================================
+2021-03-23 09:17:44.240  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : System Property - LOG_PATH=data/logs/app-res-property/
+2021-03-23 09:17:44.241  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : System Property - FILE_LOG_CHARSET=UTF-8
+2021-03-23 09:17:44.241  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : System Property - LOG_FILE=data/logs/app-res-property//log-for-blog-23Mar2021.log
+2021-03-23 09:17:44.241  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : System Property - CONSOLE_LOG_CHARSET=UTF-8
+2021-03-23 09:17:44.241  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : System Property - CONSOLE_LOG_PATTERN=%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger.%M - %msg%n
+2021-03-23 09:17:44.241  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : =========================================
+2021-03-23 09:17:44.241 TRACE 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff needed more information - Value
+2021-03-23 09:17:44.242 DEBUG 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff needed to debug - Value
+2021-03-23 09:17:44.242  INFO 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff took input - Value
+2021-03-23 09:17:44.243  WARN 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff needed to warn - Value
+2021-03-23 09:17:44.243 ERROR 47292 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff encountered an error with value - Value
