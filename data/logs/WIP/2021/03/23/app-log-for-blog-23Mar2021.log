@@ -1,0 +1,18 @@
+2021-03-23 19:14:28.291  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 27928 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+2021-03-23 19:14:28.294 DEBUG 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-23 19:14:28.295  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : No active profile set, falling back to default profiles: default
+2021-03-23 19:14:28.647  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : Started SpringBootLogbackDemoApplication in 0.654 seconds (JVM running for 1.188)
+2021-03-23 19:14:28.650  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : ==========================================
+2021-03-23 19:14:28.650  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication :  System Properties configured for log*    
+2021-03-23 19:14:28.650  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : ==========================================
+2021-03-23 19:14:28.651  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : System Property - FILE_LOG_CHARSET=UTF-8
+2021-03-23 19:14:28.651  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : System Property - logFileNameWithPath=data/logs/WIP/2021/03/23/app-log-for-blog-23Mar2021.log
+2021-03-23 19:14:28.651  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : System Property - LOG_FILE=data/logs/WIP/2021/03/23/app-log-for-blog-23Mar2021.log
+2021-03-23 19:14:28.651  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : System Property - CONSOLE_LOG_CHARSET=UTF-8
+2021-03-23 19:14:28.651  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : System Property - CONSOLE_LOG_PATTERN=%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger.%M - %msg%n
+2021-03-23 19:14:28.651  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : =========================================
+2021-03-23 19:14:28.651 TRACE 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff needed more information - Value
+2021-03-23 19:14:28.652 DEBUG 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff needed to debug - Value
+2021-03-23 19:14:28.652  INFO 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff took input - Value
+2021-03-23 19:14:28.653  WARN 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff needed to warn - Value
+2021-03-23 19:14:28.653 ERROR 27928 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff encountered an error with value - Value
