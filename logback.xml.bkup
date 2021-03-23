@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                <!-- Ref : https://lankydan.dev/2019/01/09/configuring-logback-with-spring-boot -->
+                <!--%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{36}.%M - %msg%n-->
+                %d{dd-MM-yyyy HH:mm:ss.SSS} | %green([%thread]) | %highlight(%-5level) | %logger{36}.%M - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="WRITE-TO-FILE" class="ch.qos.logback.core.FileAppender">
+        <!--<file>${LOG_PATH}/${LOG_FILE}</file>-->
+        <file>${logFileNameWithPath}</file>
+        <encoder>
+            <pattern>
+                | %d{dd-MM-yyyy | HH:mm:ss.SSS} | [%thread] %-5level %logger{36}.%M - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <logger name="com.example.demo.logback.SpringBootLogbackDemoApplication" additivity="false" level="debug">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="WRITE-TO-FILE"/>
+    </logger>
+
+</configuration>

@@ -1,0 +1,9 @@
+22-03-2021 00:01:52.754 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStarting - Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 34924 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+22-03-2021 00:01:52.757 [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication.logStarting - Running with Spring Boot v2.4.4, Spring v5.3.5
+22-03-2021 00:01:52.757 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+22-03-2021 00:01:53.242 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.logStarted - Started SpringBootLogbackDemoApplication in 0.865 seconds (JVM running for 1.444)
+22-03-2021 00:01:53.248 [main] TRACE c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed more information - Value
+22-03-2021 00:01:53.250 [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed to debug - Value
+22-03-2021 00:01:53.250 [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff took input - Value
+22-03-2021 00:01:53.250 [main] WARN  c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff needed to warn - Value
+22-03-2021 00:01:53.250 [main] ERROR c.e.d.l.SpringBootLogbackDemoApplication.doStuff - doStuff encountered an error with value - Value

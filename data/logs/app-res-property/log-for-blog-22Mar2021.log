@@ -1,0 +1,9 @@
+2021-03-22 23:20:24.923  INFO 13476 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 13476 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+2021-03-22 23:20:24.926 DEBUG 13476 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-22 23:20:24.928  INFO 13476 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : No active profile set, falling back to default profiles: default
+2021-03-22 23:20:25.358  INFO 13476 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : Started SpringBootLogbackDemoApplication in 0.795 seconds (JVM running for 1.36)
+2021-03-22 23:20:25.360 TRACE 13476 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff needed more information - Value
+2021-03-22 23:20:25.360 DEBUG 13476 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff needed to debug - Value
+2021-03-22 23:20:25.360  INFO 13476 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff took input - Value
+2021-03-22 23:20:25.360  WARN 13476 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff needed to warn - Value
+2021-03-22 23:20:25.360 ERROR 13476 --- [main] c.e.d.l.SpringBootLogbackDemoApplication : doStuff encountered an error with value - Value
