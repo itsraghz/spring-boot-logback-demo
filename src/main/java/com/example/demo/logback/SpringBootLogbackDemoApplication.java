@@ -14,7 +14,7 @@ public class SpringBootLogbackDemoApplication {
     private final Logger LOGGER = LoggerFactory.getLogger(SpringBootLogbackDemoApplication.class);
 
     public static void main(String[] args) {
-        //setProperties();
+        setProperties();
         SpringBootLogbackDemoApplication obj = new SpringBootLogbackDemoApplication();
         SpringApplication.run(SpringBootLogbackDemoApplication.class, args);
         obj.printSystemProperties();
@@ -23,13 +23,15 @@ public class SpringBootLogbackDemoApplication {
 
     private static void setProperties() {
         /* Flavor 3 - Placeholder set in Java for the logback.xml */
-        System.setProperty("logFileNameWithPath", "data/logs/WIP/2021/03/23/app-log-for-blog-23Mar2021.log");
+        System.setProperty("logFileNameWithPath", "data/logs/WIP/2021/03/26/app-log-XML-customKey-26Mar2021.log");
+        //System.setProperty("logFileNameWithPath", "data/logs/WIP/2021/03/23/app-log-for-blog-23Mar2021.log");
         /*System.setProperty("logFileName", "dynamic-file-name.log");*/
 
         //System.setProperty("LOG_PATH", "data/logs/JavaConfig/");
         //System.setProperty("LOG_FILE", "dynamic-file-name.log");
         //System.setProperty("LOG_FILE", "app-log_21Mar2021.log");
         //System.setProperty("LOG_FILE", "app-log-for-blog-23Mar2021.log");
+        //System.setProperty("LOG_FILE", "app-log-XML-config-26Mar2021.log");
 
         /*System.setProperty("${LOG_PATH}", "data/logs/Java-Config/");
         System.setProperty("${LOG_FILE}", "dynamic-file-name-placeholder.log");*/

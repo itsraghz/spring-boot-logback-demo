@@ -1,0 +1,30 @@
+591  2021-03-26 | 19:50:52.389 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 17608 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+594  2021-03-26 | 19:50:52.392 | [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication - Running with Spring Boot v2.4.4, Spring v5.3.5
+594  2021-03-26 | 19:50:52.392 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - No active profile set, falling back to default profiles: default
+1061 2021-03-26 | 19:50:52.859 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - Started SpringBootLogbackDemoApplication in 0.883 seconds (JVM running for 1.492)
+1063 2021-03-26 | 19:50:52.861 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - ==========================================
+1063 2021-03-26 | 19:50:52.861 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication -  System Properties configured for log*    
+1064 2021-03-26 | 19:50:52.862 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - ==========================================
+1064 2021-03-26 | 19:50:52.862 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - System Property - FILE_LOG_CHARSET=UTF-8
+1064 2021-03-26 | 19:50:52.862 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - System Property - logFileNameWithPath=data/logs/WIP/2021/03/26/app-log-XML-customKey-26Mar2021.log
+1064 2021-03-26 | 19:50:52.862 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - System Property - CONSOLE_LOG_CHARSET=UTF-8
+1064 2021-03-26 | 19:50:52.862 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - =========================================
+1064 2021-03-26 | 19:50:52.862 | [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication - doStuff needed to debug - Value
+1065 2021-03-26 | 19:50:52.863 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - doStuff took input - Value
+1065 2021-03-26 | 19:50:52.863 | [main] WARN  c.e.d.l.SpringBootLogbackDemoApplication - doStuff needed to warn - Value
+1065 2021-03-26 | 19:50:52.863 | [main] ERROR c.e.d.l.SpringBootLogbackDemoApplication - doStuff encountered an error with value - Value
+614  2021-03-26 | 23:00:33.630 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 20020 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+621  2021-03-26 | 23:00:33.637 | [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication - Running with Spring Boot v2.4.4, Spring v5.3.5
+621  2021-03-26 | 23:00:33.637 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - No active profile set, falling back to default profiles: default
+1021 2021-03-26 | 23:00:34.037 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - Started SpringBootLogbackDemoApplication in 0.786 seconds (JVM running for 1.462)
+1021 2021-03-26 | 23:00:34.037 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - ==========================================
+1021 2021-03-26 | 23:00:34.037 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication -  System Properties configured for log*    
+1021 2021-03-26 | 23:00:34.037 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - ==========================================
+1021 2021-03-26 | 23:00:34.037 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - System Property - FILE_LOG_CHARSET=UTF-8
+1021 2021-03-26 | 23:00:34.037 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - System Property - logFileNameWithPath=data/logs/WIP/2021/03/26/app-log-XML-customKey-26Mar2021.log
+1021 2021-03-26 | 23:00:34.037 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - System Property - CONSOLE_LOG_CHARSET=UTF-8
+1021 2021-03-26 | 23:00:34.037 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - =========================================
+1021 2021-03-26 | 23:00:34.037 | [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication - doStuff needed to debug - Value
+1021 2021-03-26 | 23:00:34.037 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - doStuff took input - Value
+1021 2021-03-26 | 23:00:34.037 | [main] WARN  c.e.d.l.SpringBootLogbackDemoApplication - doStuff needed to warn - Value
+1021 2021-03-26 | 23:00:34.037 | [main] ERROR c.e.d.l.SpringBootLogbackDemoApplication - doStuff encountered an error with value - Value

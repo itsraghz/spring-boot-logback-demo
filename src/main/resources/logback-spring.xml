@@ -11,7 +11,9 @@
     </appender>
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <!-- use the previously created timestamp to create a uniquely named log file -->
-        <file>./data/logs/WIP/2021/03/26/log-for-blog-26Mar2021-${bySecond}.log</file>
+        <!--<file>./data/logs/WIP/2021/03/26/log-for-blog-26Mar2021-${bySecond}.log</file>-->
+        <!--<file>${LOG_PATH}/${LOG_FILE}</file>&ndash;&gt;-->
+        <file>${logFileNameWithPath}</file>
         <append>true</append>
         <!-- set immediateFlush to false for much higher logging throughput -->
         <immediateFlush>true</immediateFlush>
@@ -20,12 +22,12 @@
         </encoder>
     </appender>
 
-    <root level="debug">
+    <root level="info">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
     </root>
     <logger name="com.example.demo.logback.SpringBootLogbackDemoApplication" additivity="false" level="debug">
         <appender-ref ref="STDOUT" />
-        <!--<appender-ref ref="FILE"/>-->
+        <appender-ref ref="FILE"/>
     </logger>
 </configuration>

@@ -1,0 +1,14 @@
+489  2021-03-26 | 19:20:23.220 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - Starting SpringBootLogbackDemoApplication using Java 14.0.2 on Raghs-LegionY540-TPIN with PID 14636 (C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo\target\classes started by raghs in C:\Users\Raghavan Muthu\OneDrive\Documents\prfsnl\spring-boot-logback-demo)
+493  2021-03-26 | 19:20:23.224 | [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication - Running with Spring Boot v2.4.4, Spring v5.3.5
+495  2021-03-26 | 19:20:23.226 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - No active profile set, falling back to default profiles: default
+898  2021-03-26 | 19:20:23.629 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - Started SpringBootLogbackDemoApplication in 0.758 seconds (JVM running for 1.274)
+900  2021-03-26 | 19:20:23.631 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - ==========================================
+900  2021-03-26 | 19:20:23.631 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication -  System Properties configured for log*    
+900  2021-03-26 | 19:20:23.631 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - ==========================================
+900  2021-03-26 | 19:20:23.631 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - System Property - FILE_LOG_CHARSET=UTF-8
+900  2021-03-26 | 19:20:23.631 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - System Property - CONSOLE_LOG_CHARSET=UTF-8
+900  2021-03-26 | 19:20:23.631 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - =========================================
+900  2021-03-26 | 19:20:23.631 | [main] DEBUG c.e.d.l.SpringBootLogbackDemoApplication - doStuff needed to debug - Value
+900  2021-03-26 | 19:20:23.631 | [main] INFO  c.e.d.l.SpringBootLogbackDemoApplication - doStuff took input - Value
+900  2021-03-26 | 19:20:23.631 | [main] WARN  c.e.d.l.SpringBootLogbackDemoApplication - doStuff needed to warn - Value
+900  2021-03-26 | 19:20:23.631 | [main] ERROR c.e.d.l.SpringBootLogbackDemoApplication - doStuff encountered an error with value - Value
